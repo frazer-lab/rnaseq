@@ -1,3 +1,12 @@
+# Project directories to ignore
+data
+external_data
+notebooks/.ipynb_checkpoints
+output
+private_data
+sandbox
+software
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
