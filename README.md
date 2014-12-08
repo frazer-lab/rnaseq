@@ -50,7 +50,8 @@ you perform analyses.  I will describe the top-level directories.
 
 This is data that you will store online in a repository like Figshare. This is
 likely external data that may disappear over time or is not well-versioned,
-data that you have to download manually, or data that 
+data that you have to download manually, or data that cannot be easily
+downloaded from the web.
 
 #### `external_data`
 
@@ -80,8 +81,8 @@ This directory contains analysis output from the IPython notebooks.
 This directory holds a Python pacakge specific to this project. You can add to
 this package to make functions/magic variables/paths/etc. available throughout
 your project. I use this package to organize the paths of the project so you
-should not move this directory or it's `__init__.py` file, although you can to
-the package.
+should not move this directory or it's `__init__.py` file, although you can add
+to the package as you need.
 
 #### `private_data`
 
